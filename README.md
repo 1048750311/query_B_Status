@@ -48,6 +48,8 @@ Bt_task/
 | track_no | INT | 状态记录编号 |
 | status | CHAR | 状态值 |
 | status_date | DATE | 状态日期 |
+<img width="1027" height="698" alt="5bf7effac81956f5d2a6f161845cdaac" src="https://github.com/user-attachments/assets/d2118657-51e8-4591-adca-c95fc00ee1e6" />
+<img width="1074" height="823" alt="612495d1fd9a6b046bb7595b7fd58209" src="https://github.com/user-attachments/assets/7275a36e-6418-4588-850a-e41b698102ec" />
 
 ---
 
