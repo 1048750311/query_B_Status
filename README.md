@@ -50,6 +50,8 @@ Bt_task/
 | track_no | INT | ステータス履歴番号 |
 | status | CHAR | ステータス値 |
 | status_date | DATE | ステータス更新日 |
+<img width="1072" height="693" alt="4802b9a2ca006985d2788993bd2ffc0c" src="https://github.com/user-attachments/assets/fd4e3323-1416-44d1-90b9-e66a9230c33d" />
+<img width="1114" height="902" alt="5c9a38d816f4d496d9deac2d589285e4" src="https://github.com/user-attachments/assets/8f89190c-e614-493f-8400-043e55bf1fcb" />
 
 ---
 
