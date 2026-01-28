@@ -12,13 +12,16 @@ function is_date($s) {
 
 if (!is_date($start) || !is_date($end)) {
   http_response_code(400);
-  echo json_encode(['ok' => false, 'msg' => '日期格式必须是 YYYY-MM-DD'], JSON_UNESCAPED_UNICODE);
+  echo json_encode([
+    'ok' => false,
+    'msg' => '日付形式は YYYY-MM-DD で入力してください'
+  ], JSON_UNESCAPED_UNICODE);
   exit;
 }
 
 if ($start > $end) {
   http_response_code(400);
-  echo json_encode(['ok' => false, 'msg' => '开始日期不能大于结束日期'], JSON_UNESCAPED_UNICODE);
+  echo json_encode(['ok' => false, 'msg' => '開始日は終了日より前の日付を指定してください'], JSON_UNESCAPED_UNICODE);
   exit;
 }
 
